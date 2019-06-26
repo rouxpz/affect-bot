@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <title>Affect Bot: Proof of Concept</title>
+  <script src="js/bot.js"></script>
+</head>
+
+
+<body onload = "loadData()">
+  <div>I am <select id = "affects" onchange = "changeAffect()">
+    <option value="anger">angry</option>
+    <option value="joy">joyous</option>
+    <option value="fear">afraid</option>
+    <option value="anticipation">anticipating</option>
+    <option value="trust">trusting</option>
+    <option value="surprise">surprised</option>
+    <option value="sadness">sad</option>
+    <option value="disgust">disgusted</option>
+  </select></div>
+  <div id = "mainStatement"></div>
+  <div id = "pastStatements"></div>
+</body>
