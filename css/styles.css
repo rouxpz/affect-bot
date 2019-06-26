@@ -1,9 +1,15 @@
 body {
   font-family: Helvetica;
   padding:20px;
+  color:white;
+  background-color: #e0115f;
+}
+
+#selection, #affects {
+  font-size: 20pt;
 }
 
 #mainStatement {
-  font-size: 20pt;
-  padding-top: 10px;
+  font-size: 70pt;
+  padding-top: 20px;
 }
