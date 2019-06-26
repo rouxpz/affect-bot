@@ -1,0 +1,9 @@
+body {
+  font-family: Helvetica;
+  padding:20px;
+}
+
+#mainStatement {
+  font-size: 20pt;
+  padding-top: 10px;
+}
