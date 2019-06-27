@@ -5,11 +5,28 @@ body {
   background-color: #e0115f;
 }
 
+@media only screen and (min-width: 641px){
+   .parent {
+   display: flex;
+ }
+}
+
 #selection, #affects {
   font-size: 20pt;
+}
+
+#reset {
+  font-size: 20pt;
+  display: none;
 }
 
 #mainStatement {
   font-size: 70pt;
   padding-top: 20px;
+  flex: 2;
+}
+
+#pastStatements {
+  flex: 1;
+  float: right;
 }

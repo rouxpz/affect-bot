@@ -1,6 +1,10 @@
 let posCats = ['nn', 'vb', 'jj', 'prp', 'rb', 'ex'];
 let groups = [[], [], [], [], [], []];
-let constructions = [['nn', 'vb', 'jj'], ['prp', 'vb', 'jj']];
+var txt, toFill, intv;
+let scripts = ['script-1', 'script-2']
+
+//sentence constructions here by part of speech -- can be much more detailed!
+let constructions = [['prp', 'vb', 'rb', 'jj', 'nn']];
 
 function loadData() {
   request = new XMLHttpRequest();
@@ -32,7 +36,7 @@ function loadData() {
 
       // console.log(words.length);
       // console.log(words[0]);
-      // console.log(groups);
+      console.log(groups);
     } else {
       // We reached our target server, but it returned an error
       console.log("error");
@@ -40,21 +44,35 @@ function loadData() {
   };
 
   request.send();
+
+  for (var i = 0; i < scripts.length; i++) {
+    var client = new XMLHttpRequest();
+    client.open('GET', 'python/' + scripts[i] + '.txt');
+    client.onreadystatechange = function() {
+      txt += client.responseText.trim();
+      // console.log(txt);
+    }
+    client.send();
+  }
 }
 
 function changeAffect() {
-  document.getElementById("pastStatements").innerHTML += '<br>' + document.getElementById("mainStatement").innerHTML;
+  document.getElementById("reset").style.display = "inline-block";
+  document.getElementById("pastStatements").innerHTML += '<br>' +  document.getElementById("mainStatement").innerHTML;
 
-  var currentText = '';
+  toFill = '';
+  var currentText = [];
   var toAdd;
   var cs = Math.floor(Math.random() * constructions.length);
   var affects = document.getElementById("affects");
+  var continuation = Math.floor(Math.random() * 5);
 
   for (var i = 0; i < constructions[cs].length; i++) {
+    // for (var i = 0; i < 3; i++) {
     if (constructions[cs][i] === 'prp') {
       //select proper noun randomly
       toAdd = Math.floor(Math.random() * groups[3].length);
-      currentText += groups[3][toAdd].text + ' ';
+      currentText.push(groups[3][toAdd].text);
       console.log("proper noun");
     } else {
       //match affect
@@ -73,15 +91,24 @@ function changeAffect() {
       if (tempArray.length > 0) {
         //randomly select word
         toAdd = Math.floor(Math.random() * tempArray.length);
-        currentText += tempArray[toAdd] + ' ';
+        currentText.push(tempArray[toAdd]);
       } else {
         //randomly select from full array of POS
+        toAdd = Math.floor(Math.random() * groups[3].length);
+        currentText.push(groups[s][toAdd].text);
       }
     }
   }
 
-  document.getElementById("mainStatement").innerHTML = currentText;
-  // console.log(affects.value);
+  // console.log(currentText);
+  for (var i = 0; i < currentText.length; i++) {
+    toFill += ' ' + currentText[i];
+  }
+
+  console.log(toFill);
+  document.getElementById("mainStatement").innerHTML = toFill;
+
+
 }
 
 
@@ -89,4 +116,15 @@ function Word(text, affects) {
   this.text = text;
   this.affects = affects;
 
+}
+
+function switchAffect() {
+  intv = setInterval(changeAffect, 5000);
+  document.getElementById("selection").style.display = "none";
+}
+
+function resetAffect() {
+  clearInterval(intv);
+  document.getElementById("selection").style.display = "inline-block";
+  document.getElementById("reset").style.display = "none";
 }

@@ -2,12 +2,13 @@
 <head>
   <title>Affect Bot: Proof of Concept</title>
   <script src="js/bot.js"></script>
+  <script src="js/rita.min.js"></script>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 
 <body onload = "loadData()">
-  <div id = "selection">I am <select id = "affects" onchange = "changeAffect()">
+  <div id = "selection">I am <select id = "affects" onchange = "changeAffect(); switchAffect()">
     <option value="anger">angry</option>
     <option value="joy">joyous</option>
     <option value="fear">afraid</option>
@@ -16,7 +17,11 @@
     <option value="surprise">surprised</option>
     <option value="sadness">sad</option>
     <option value="disgust">disgusted</option>
-  </select></div>
-  <div id = "mainStatement"></div>
-  <div id = "pastStatements"></div>
+  </select>
+  </div>
+  <button id = "reset" onclick = "resetAffect()">RESET AFFECT</button>
+  <div class = "parent">
+    <div id = "mainStatement"></div>
+    <div id = "pastStatements"></div>
+  </div>
 </body>
