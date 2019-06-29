@@ -3,7 +3,7 @@ let affectList = ['anger', 'anticipation', 'joy', 'surprise', 'sadness', 'disgus
 let groups = [[], [], [], [], [], []];
 let sentenceGroups = [[], [], [], [], [], [], [], []];
 var txt, toFill, intv, markovFill;
-let scripts = ['script-1', 'script-2']
+let scripts = ['script-1', 'script-2', 'poem-2', 'poem-3']
 
 //sentence constructions here by part of speech -- can be much more detailed!
 let constructions = [['prp', 'vb', 'rb', 'jj', 'nn']];

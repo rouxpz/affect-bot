@@ -4,7 +4,7 @@ Bot project for Beyond Verification research group.
 
 ### TO ADD NEW WORDS TO CORPUS:  
 
-Run **sorting.py** in the terminal, which will generate a JSON file with every script included in the "python" folder. *This JSON will need to be run through a validator and adjusted manually to work properly.* I recommend using [this one](https://jsonformatter.org/).
+Run **sorting.py** in the terminal, which will generate a JSON file with every script or poem included in the "python" folder. *This JSON will need to be run through a validator and adjusted manually to work properly.* I recommend using [this one](https://jsonformatter.org/).
 
 There is also a file called **sorting-sentences.py**, which will add new sentences to the **corpus-s.json** document in case you want to use the Markov Chain option in the JavaScript file.
 
