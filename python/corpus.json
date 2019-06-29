@@ -1,2481 +1,1843 @@
 [
-  {
-    "word": "and",
-    "affects": [],
-    "pos": [
-      "CC"
-    ]
-  },
-  {
-    "word": "now",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "we",
-    "affects": [],
-    "pos": [
-      "PRP"
-    ]
-  },
-  {
-    "word": "begin",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "the",
-    "affects": [],
-    "pos": [
-      "DT"
-    ]
-  },
-  {
-    "word": "second",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "show",
-    "affects": [
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "i'm",
-    "affects": [],
-    "pos": [
-      "PRP",
-      "VBP"
-    ]
-  },
-  {
-    "word": "going",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "to",
-    "affects": [],
-    "pos": [
-      "TO"
-    ]
-  },
-  {
-    "word": "invite",
-    "affects": [
-      "anticipation",
-      "joy",
-      "positive",
-      "surprise",
-      "trust"
-    ],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "inviting",
-    "affects": [
-      "anticipation",
-      "joy",
-      "positive",
-      "surprise",
-      "trust"
-    ],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "audience",
-    "affects": [
-      "anticipation"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "participation",
-    "affects": [
-      "positive"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "so",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "pay",
-    "affects": [
-      "anticipation",
-      "joy",
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "attention",
-    "affects": [
-      "positive"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "me",
-    "affects": [],
-    "pos": [
-      "PRP"
-    ]
-  },
-  {
-    "word": "because",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "as",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "you",
-    "affects": [],
-    "pos": [
-      "PRP"
-    ]
-  },
-  {
-    "word": "like",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "things",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "there's",
-    "affects": [],
-    "pos": [
-      "EX",
-      "VBZ"
-    ]
-  },
-  {
-    "word": "ways",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "that",
-    "affects": [],
-    "pos": [
-      "DT"
-    ]
-  },
-  {
-    "word": "can",
-    "affects": [],
-    "pos": [
-      "MD"
-    ]
-  },
-  {
-    "word": "engage",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "i'll",
-    "affects": [],
-    "pos": [
-      "PRP",
-      "MD"
-    ]
-  },
-  {
-    "word": "let",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "know",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "what",
-    "affects": [],
-    "pos": [
-      "WP"
-    ]
-  },
-  {
-    "word": "is",
-    "affects": [],
-    "pos": [
-      "VBZ"
-    ]
-  },
-  {
-    "word": "but",
-    "affects": [],
-    "pos": [
-      "CC"
-    ]
-  },
-  {
-    "word": "we're",
-    "affects": [],
-    "pos": [
-      "PRP",
-      "VBP"
-    ]
-  },
-  {
-    "word": "first",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "with",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "our",
-    "affects": [],
-    "pos": [
-      "PRP$"
-    ]
-  },
-  {
-    "word": "a",
-    "affects": [],
-    "pos": [
-      "DT"
-    ]
-  },
-  {
-    "word": "veteran",
-    "affects": [
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "refugee",
-    "affects": [
-      "sadness"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "i",
-    "affects": [],
-    "pos": [
-      "PRP"
-    ]
-  },
-  {
-    "word": "always",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "leave",
-    "affects": [
-      "negative",
-      "sadness",
-      "surprise"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "home",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "every",
-    "affects": [],
-    "pos": [
-      "DT"
-    ]
-  },
-  {
-    "word": "chance",
-    "affects": [
-      "surprise"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "get",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "not",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "enough",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "satisfy",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "everything",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "need",
-    "affects": [],
-    "pos": [
-      "VBP"
-    ]
-  },
-  {
-    "word": "go",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "other",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "places",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "many",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "cases",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "i've",
-    "affects": [],
-    "pos": [
-      "PRP",
-      "VBP"
-    ]
-  },
-  {
-    "word": "never",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "felt",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "at",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "anywhere",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "was",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "on",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "move",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "looking",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "for",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "next",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "place",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "hand",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "been",
-    "affects": [],
-    "pos": [
-      "VBN"
-    ]
-  },
-  {
-    "word": "wherever",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "details",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "intellectually",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "how",
-    "affects": [],
-    "pos": [
-      "WRB"
-    ]
-  },
-  {
-    "word": "does",
-    "affects": [],
-    "pos": [
-      "VBZ"
-    ]
-  },
-  {
-    "word": "make",
-    "affects": [],
-    "pos": [
-      "VB"
-    ]
-  },
-  {
-    "word": "feel",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "makes",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "true",
-    "affects": [
-      "joy",
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "anybody",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "story",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "anyone",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "here",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "resonates",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "yes",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "join",
-    "affects": [
-      "positive"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "us",
-    "affects": [],
-    "pos": [
-      "PRP"
-    ]
-  },
-  {
-    "word": "okay",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "couple",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "share",
-    "affects": [
-      "anticipation",
-      "joy",
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "why",
-    "affects": [],
-    "pos": [
-      "WRB"
-    ]
-  },
-  {
-    "word": "oh",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "turn",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "this",
-    "affects": [],
-    "pos": [
-      "DT"
-    ]
-  },
-  {
-    "word": "way",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "moved",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "lot",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "when",
-    "affects": [],
-    "pos": [
-      "WRB"
-    ]
-  },
-  {
-    "word": "growing",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "up",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "don't",
-    "affects": [],
-    "pos": [
-      "VBP",
-      "RB"
-    ]
-  },
-  {
-    "word": "have",
-    "affects": [],
-    "pos": [
-      "VBP"
-    ]
-  },
-  {
-    "word": "one",
-    "affects": [],
-    "pos": [
-      "CD"
-    ]
-  },
-  {
-    "word": "that's",
-    "affects": [],
-    "pos": [
-      "DT",
-      "VBZ"
-    ]
-  },
-  {
-    "word": "really",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "except",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "where",
-    "affects": [],
-    "pos": [
-      "WRB"
-    ]
-  },
-  {
-    "word": "people",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "love",
-    "affects": [
-      "joy",
-      "positive"
-    ],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "thank",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "sharing",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "after",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "hurricane",
-    "affects": [
-      "fear",
-      "negative"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "katrina",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "there",
-    "affects": [],
-    "pos": [
-      "EX"
-    ]
-  },
-  {
-    "word": "no",
-    "affects": [],
-    "pos": [
-      "DT"
-    ]
-  },
-  {
-    "word": "food",
-    "affects": [
-      "joy",
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "or",
-    "affects": [],
-    "pos": [
-      "CC"
-    ]
-  },
-  {
-    "word": "water",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "in",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "new",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "orleans",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "cuba",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "offered",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "come",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "provide",
-    "affects": [
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "VB"
-    ]
-  },
-  {
-    "word": "said",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "it",
-    "affects": [],
-    "pos": [
-      "PRP"
-    ]
-  },
-  {
-    "word": "resonate",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "anting",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "horrible",
-    "affects": [
-      "anger",
-      "disgust",
-      "fear",
-      "negative"
-    ],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "huh",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "do",
-    "affects": [],
-    "pos": [
-      "VBP"
-    ]
-  },
-  {
-    "word": "would",
-    "affects": [],
-    "pos": [
-      "MD"
-    ]
-  },
-  {
-    "word": "well",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "terrible",
-    "affects": [
-      "anger",
-      "disgust",
-      "fear",
-      "negative",
-      "sadness"
-    ],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "happened",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "awful",
-    "affects": [
-      "anger",
-      "disgust",
-      "fear",
-      "negative",
-      "sadness"
-    ],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "means",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "didn't",
-    "affects": [],
-    "pos": [
-      "VBD",
-      "RB"
-    ]
-  },
-  {
-    "word": "resources",
-    "affects": [
-      "joy",
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "could've",
-    "affects": [],
-    "pos": [
-      "MD",
-      "VB"
-    ]
-  },
-  {
-    "word": "had",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "some",
-    "affects": [],
-    "pos": [
-      "DT"
-    ]
-  },
-  {
-    "word": "want",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "respond",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "guys",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "say",
-    "affects": [],
-    "pos": [
-      "VBP"
-    ]
-  },
-  {
-    "word": "who",
-    "affects": [],
-    "pos": [
-      "WP"
-    ]
-  },
-  {
-    "word": "my",
-    "affects": [],
-    "pos": [
-      "PRP$"
-    ]
-  },
-  {
-    "word": "mother",
-    "affects": [
-      "anticipation",
-      "joy",
-      "negative",
-      "positive",
-      "sadness",
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "fit",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "of",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "panic",
-    "affects": [
-      "fear",
-      "negative"
-    ],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "despair",
-    "affects": [
-      "anger",
-      "disgust",
-      "fear",
-      "negative",
-      "sadness"
-    ],
-    "pos": [
-      "PRP$"
-    ]
-  },
-  {
-    "word": "shipped",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "out",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "york",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "moment",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "real",
-    "affects": [
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "crisis",
-    "affects": [
-      "negative"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "although",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "continued",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "months",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "years",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "links",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "were",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "broken",
-    "affects": [
-      "anger",
-      "fear",
-      "negative",
-      "sadness"
-    ],
-    "pos": [
-      "VBN"
-    ]
-  },
-  {
-    "word": "nicole",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "everywhere",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "walk",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "into",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "identity",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "nations",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "woman",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "identify",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "mistaken",
-    "affects": [
-      "fear",
-      "negative"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "mexican",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "polynesian",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "those",
-    "affects": [],
-    "pos": [
-      "DT"
-    ]
-  },
-  {
-    "word": "even",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "southern",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "california",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "went",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "africa",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "time",
-    "affects": [
-      "anticipation"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "daughter",
-    "affects": [
-      "joy",
-      "positive"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "cause",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "she's",
-    "affects": [],
-    "pos": [
-      "PRP",
-      "VBZ"
-    ]
-  },
-  {
-    "word": "half",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "indian",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "got",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "wasn't",
-    "affects": [],
-    "pos": [
-      "VBD",
-      "RB"
-    ]
-  },
-  {
-    "word": "indigenous",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "fact",
-    "affects": [
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "white",
-    "affects": [
-      "anticipation",
-      "joy",
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "everybody",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "skin",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "black",
-    "affects": [
-      "negative",
-      "sadness"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "actually",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "drive",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "referred",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "daughter's",
-    "affects": [],
-    "pos": [
-      "NN",
-      "POS"
-    ]
-  },
-  {
-    "word": "stepmom",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "driving",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "police",
-    "affects": [
-      "fear",
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "officer",
-    "affects": [
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "asked",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "are",
-    "affects": [],
-    "pos": [
-      "VBP"
-    ]
-  },
-  {
-    "word": "taking",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "boss",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "around",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "yeah",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "will",
-    "affects": [],
-    "pos": [
-      "MD"
-    ]
-  },
-  {
-    "word": "grew",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "born",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "traveled",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "world",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "identified",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "an",
-    "affects": [],
-    "pos": [
-      "DT"
-    ]
-  },
-  {
-    "word": "american",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "something",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "else",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "from",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "moments",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "back",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "india",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "carry",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "myself",
-    "affects": [],
-    "pos": [
-      "PRP"
-    ]
-  },
-  {
-    "word": "such",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "western",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "couldn't",
-    "affects": [],
-    "pos": [
-      "MD",
-      "RB"
-    ]
-  },
-  {
-    "word": "possibly",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "be",
-    "affects": [],
-    "pos": [
-      "VB"
-    ]
-  },
-  {
-    "word": "end",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "performance",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "just",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "let's",
-    "affects": [],
-    "pos": [
-      "NN",
-      "POS"
-    ]
-  },
-  {
-    "word": "if",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "liked",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "please",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "your",
-    "affects": [],
-    "pos": [
-      "PRP$"
-    ]
-  },
-  {
-    "word": "favorite",
-    "affects": [
-      "joy",
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "social",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "media",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "facebook",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "who's",
-    "affects": [],
-    "pos": [
-      "WP",
-      "VBZ"
-    ]
-  },
-  {
-    "word": "off",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "stage",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "person",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "standing",
-    "affects": [
-      "positive"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "alone",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "see",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "their",
-    "affects": [],
-    "pos": [
-      "PRP$"
-    ]
-  },
-  {
-    "word": "activity",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "screen",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "they're",
-    "affects": [],
-    "pos": [
-      "PRP",
-      "VBP"
-    ]
-  },
-  {
-    "word": "represented",
-    "affects": [
-      "positive"
-    ],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "they",
-    "affects": [],
-    "pos": [
-      "PRP"
-    ]
-  },
-  {
-    "word": "look",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "ominous",
-    "affects": [
-      "anticipation",
-      "fear",
-      "negative"
-    ],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "warnings",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "flashing",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "power",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "about",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "he's",
-    "affects": [],
-    "pos": [
-      "PRP",
-      "VBZ"
-    ]
-  },
-  {
-    "word": "taping",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "character",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "tapping",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "suddenly",
-    "affects": [
-      "surprise"
-    ],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "appearing",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "might",
-    "affects": [],
-    "pos": [
-      "MD"
-    ]
-  },
-  {
-    "word": "heard",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "happening",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "another",
-    "affects": [],
-    "pos": [
-      "DT"
-    ]
-  },
-  {
-    "word": "fake",
-    "affects": [
-      "negative"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "news",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "somebody",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "trying",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "fool",
-    "affects": [
-      "disgust",
-      "negative"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "happens",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "distracted",
-    "affects": [
-      "anger",
-      "negative"
-    ],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "truth",
-    "affects": [
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "own",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "body",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "did",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "hear",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "too",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "crashing",
-    "affects": [],
-    "pos": [
-      "VBG"
-    ]
-  },
-  {
-    "word": "sounds",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "cuts",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "disappears",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "sound",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "feedback",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "then",
-    "affects": [],
-    "pos": [
-      "RB"
-    ]
-  },
-  {
-    "word": "silence",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "actor",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "take",
-    "affects": [],
-    "pos": [
-      "VB"
-    ]
-  },
-  {
-    "word": "headsets",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "disheveled",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "disoriented",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "tectonic",
-    "affects": [],
-    "pos": [
-      "JJ"
-    ]
-  },
-  {
-    "word": "assurance",
-    "affects": [
-      "positive",
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "fragile",
-    "affects": [
-      "fear",
-      "negative",
-      "sadness"
-    ],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "ground",
-    "affects": [
-      "trust"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "network",
-    "affects": [
-      "anticipation"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "won't",
-    "affects": [],
-    "pos": [
-      "MD",
-      "RB"
-    ]
-  },
-  {
-    "word": "reboot",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "what's",
-    "affects": [],
-    "pos": [
-      "WP",
-      "VBZ"
-    ]
-  },
-  {
-    "word": "comes",
-    "affects": [],
-    "pos": [
-      "NNS"
-    ]
-  },
-  {
-    "word": "voice",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "over",
-    "affects": [],
-    "pos": [
-      "IN"
-    ]
-  },
-  {
-    "word": "emptiness",
-    "affects": [
-      "sadness"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "middle",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "atom",
-    "affects": [
-      "positive"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "destroy",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "kid",
-    "affects": [],
-    "pos": [
-      "VBD"
-    ]
-  },
-  {
-    "word": "terrorist",
-    "affects": [
-      "anger",
-      "disgust",
-      "fear",
-      "negative",
-      "sadness",
-      "surprise"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "impressionability",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "matter",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "space",
-    "affects": [],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "fight",
-    "affects": [
-      "anger",
-      "fear",
-      "negative"
-    ],
-    "pos": [
-      "NN"
-    ]
-  },
-  {
-    "word": "shape",
-    "affects": [
-      "positive"
-    ],
-    "pos": [
-      "NN"
-    ]
-  }
+
+	{
+	"word": "and",
+		"affects": [],
+		"pos": ["CC"]
+	},
+	{
+	"word": "now",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "we",
+		"affects": [],
+		"pos": ["PRP"]
+	},
+	{
+	"word": "begin",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "the",
+		"affects": [],
+		"pos": ["DT"]
+	},
+	{
+	"word": "second",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "show",
+		"affects": ["trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "i'm",
+		"affects": [],
+		"pos": ["PRP", "VBP"]
+	},
+	{
+	"word": "going",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "to",
+		"affects": [],
+		"pos": ["TO"]
+	},
+	{
+	"word": "invite",
+		"affects": ["anticipation", "joy", "positive", "surprise", "trust"],
+		"pos": ["IN"]
+	},
+	{
+	"word": "inviting",
+		"affects": ["anticipation", "joy", "positive", "surprise", "trust"],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "audience",
+		"affects": ["anticipation"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "participation",
+		"affects": ["positive"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "so",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "pay",
+		"affects": ["anticipation", "joy", "positive", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "attention",
+		"affects": ["positive"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "me",
+		"affects": [],
+		"pos": ["PRP"]
+	},
+	{
+	"word": "because",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "as",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "you",
+		"affects": [],
+		"pos": ["PRP"]
+	},
+	{
+	"word": "like",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "things",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "there's",
+		"affects": [],
+		"pos": ["EX", "VBZ"]
+	},
+	{
+	"word": "ways",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "that",
+		"affects": [],
+		"pos": ["DT"]
+	},
+	{
+	"word": "can",
+		"affects": [],
+		"pos": ["MD"]
+	},
+	{
+	"word": "engage",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "i'll",
+		"affects": [],
+		"pos": ["PRP", "MD"]
+	},
+	{
+	"word": "let",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "know",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "what",
+		"affects": [],
+		"pos": ["WP"]
+	},
+	{
+	"word": "is",
+		"affects": [],
+		"pos": ["VBZ"]
+	},
+	{
+	"word": "but",
+		"affects": [],
+		"pos": ["CC"]
+	},
+	{
+	"word": "we're",
+		"affects": [],
+		"pos": ["PRP", "VBP"]
+	},
+	{
+	"word": "first",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "with",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "our",
+		"affects": [],
+		"pos": ["PRP$"]
+	},
+	{
+	"word": "a",
+		"affects": [],
+		"pos": ["DT"]
+	},
+	{
+	"word": "veteran",
+		"affects": ["positive", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "refugee",
+		"affects": ["sadness"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "i",
+		"affects": [],
+		"pos": ["PRP"]
+	},
+	{
+	"word": "always",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "leave",
+		"affects": ["negative", "sadness", "surprise"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "home",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "every",
+		"affects": [],
+		"pos": ["DT"]
+	},
+	{
+	"word": "chance",
+		"affects": ["surprise"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "get",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "not",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "enough",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "satisfy",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "everything",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "need",
+		"affects": [],
+		"pos": ["VBP"]
+	},
+	{
+	"word": "go",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "other",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "places",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "many",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "cases",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "i've",
+		"affects": [],
+		"pos": ["PRP", "VBP"]
+	},
+	{
+	"word": "never",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "felt",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "at",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "anywhere",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "was",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "on",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "move",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "looking",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "for",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "next",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "place",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "hand",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "been",
+		"affects": [],
+		"pos": ["VBN"]
+	},
+	{
+	"word": "wherever",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "details",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "intellectually",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "how",
+		"affects": [],
+		"pos": ["WRB"]
+	},
+	{
+	"word": "does",
+		"affects": [],
+		"pos": ["VBZ"]
+	},
+	{
+	"word": "make",
+		"affects": [],
+		"pos": ["VB"]
+	},
+	{
+	"word": "feel",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "makes",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "true",
+		"affects": ["joy", "positive", "trust"],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "anybody",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "story",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "anyone",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "here",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "resonates",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "yes",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "join",
+		"affects": ["positive"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "us",
+		"affects": [],
+		"pos": ["PRP"]
+	},
+	{
+	"word": "okay",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "couple",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "share",
+		"affects": ["anticipation", "joy", "positive", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "why",
+		"affects": [],
+		"pos": ["WRB"]
+	},
+	{
+	"word": "oh",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "turn",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "this",
+		"affects": [],
+		"pos": ["DT"]
+	},
+	{
+	"word": "way",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "moved",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "lot",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "when",
+		"affects": [],
+		"pos": ["WRB"]
+	},
+	{
+	"word": "growing",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "up",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "don't",
+		"affects": [],
+		"pos": ["VBP", "RB"]
+	},
+	{
+	"word": "have",
+		"affects": [],
+		"pos": ["VBP"]
+	},
+	{
+	"word": "one",
+		"affects": [],
+		"pos": ["CD"]
+	},
+	{
+	"word": "that's",
+		"affects": [],
+		"pos": ["DT", "VBZ"]
+	},
+	{
+	"word": "really",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "except",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "where",
+		"affects": [],
+		"pos": ["WRB"]
+	},
+	{
+	"word": "people",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "love",
+		"affects": ["joy", "positive"],
+		"pos": ["IN"]
+	},
+	{
+	"word": "thank",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "sharing",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "after",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "hurricane",
+		"affects": ["fear", "negative"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "katrina",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "there",
+		"affects": [],
+		"pos": ["EX"]
+	},
+	{
+	"word": "no",
+		"affects": [],
+		"pos": ["DT"]
+	},
+	{
+	"word": "food",
+		"affects": ["joy", "positive", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "or",
+		"affects": [],
+		"pos": ["CC"]
+	},
+	{
+	"word": "water",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "in",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "new",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "orleans",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "cuba",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "offered",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "come",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "provide",
+		"affects": ["positive", "trust"],
+		"pos": ["VB"]
+	},
+	{
+	"word": "said",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "it",
+		"affects": [],
+		"pos": ["PRP"]
+	},
+	{
+	"word": "resonate",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "anting",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "horrible",
+		"affects": ["anger", "disgust", "fear", "negative"],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "huh",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "do",
+		"affects": [],
+		"pos": ["VBP"]
+	},
+	{
+	"word": "would",
+		"affects": [],
+		"pos": ["MD"]
+	},
+	{
+	"word": "well",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "terrible",
+		"affects": ["anger", "disgust", "fear", "negative", "sadness"],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "happened",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "awful",
+		"affects": ["anger", "disgust", "fear", "negative", "sadness"],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "means",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "didn't",
+		"affects": [],
+		"pos": ["VBD", "RB"]
+	},
+	{
+	"word": "resources",
+		"affects": ["joy", "positive", "trust"],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "could've",
+		"affects": [],
+		"pos": ["MD", "VB"]
+	},
+	{
+	"word": "had",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "some",
+		"affects": [],
+		"pos": ["DT"]
+	},
+	{
+	"word": "want",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "respond",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "guys",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "say",
+		"affects": [],
+		"pos": ["VBP"]
+	},
+	{
+	"word": "who",
+		"affects": [],
+		"pos": ["WP"]
+	},
+	{
+	"word": "my",
+		"affects": [],
+		"pos": ["PRP$"]
+	},
+	{
+	"word": "mother",
+		"affects": ["anticipation", "joy", "negative", "positive", "sadness", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "fit",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "of",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "panic",
+		"affects": ["fear", "negative"],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "despair",
+		"affects": ["anger", "disgust", "fear", "negative", "sadness"],
+		"pos": ["PRP$"]
+	},
+	{
+	"word": "shipped",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "out",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "york",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "moment",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "real",
+		"affects": ["positive", "trust"],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "crisis",
+		"affects": ["negative"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "although",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "continued",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "months",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "years",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "links",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "were",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "broken",
+		"affects": ["anger", "fear", "negative", "sadness"],
+		"pos": ["VBN"]
+	},
+	{
+	"word": "nicole",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "everywhere",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "walk",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "into",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "identity",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "nations",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "woman",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "identify",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "mistaken",
+		"affects": ["fear", "negative"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "mexican",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "polynesian",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "those",
+		"affects": [],
+		"pos": ["DT"]
+	},
+	{
+	"word": "even",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "southern",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "california",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "went",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "africa",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "time",
+		"affects": ["anticipation"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "daughter",
+		"affects": ["joy", "positive"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "cause",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "she's",
+		"affects": [],
+		"pos": ["PRP", "VBZ"]
+	},
+	{
+	"word": "half",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "indian",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "got",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "wasn't",
+		"affects": [],
+		"pos": ["VBD", "RB"]
+	},
+	{
+	"word": "indigenous",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "fact",
+		"affects": ["trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "white",
+		"affects": ["anticipation", "joy", "positive", "trust"],
+		"pos": ["IN"]
+	},
+	{
+	"word": "everybody",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "skin",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "black",
+		"affects": ["negative", "sadness"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "actually",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "drive",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "referred",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "daughter's",
+		"affects": [],
+		"pos": ["NN", "POS"]
+	},
+	{
+	"word": "stepmom",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "driving",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "police",
+		"affects": ["fear", "positive", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "officer",
+		"affects": ["positive", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "asked",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "are",
+		"affects": [],
+		"pos": ["VBP"]
+	},
+	{
+	"word": "taking",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "boss",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "around",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "yeah",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "will",
+		"affects": [],
+		"pos": ["MD"]
+	},
+	{
+	"word": "grew",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "born",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "traveled",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "world",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "identified",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "an",
+		"affects": [],
+		"pos": ["DT"]
+	},
+	{
+	"word": "american",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "something",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "else",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "from",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "moments",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "back",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "india",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "carry",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "myself",
+		"affects": [],
+		"pos": ["PRP"]
+	},
+	{
+	"word": "such",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "western",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "couldn't",
+		"affects": [],
+		"pos": ["MD", "RB"]
+	},
+	{
+	"word": "possibly",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "be",
+		"affects": [],
+		"pos": ["VB"]
+	},
+	{
+	"word": "end",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "performance",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "just",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "let's",
+		"affects": [],
+		"pos": ["NN", "POS"]
+	},
+	{
+	"word": "if",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "liked",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "please",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "your",
+		"affects": [],
+		"pos": ["PRP$"]
+	},
+	{
+	"word": "favorite",
+		"affects": ["joy", "positive", "trust"],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "social",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "media",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "facebook",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "who's",
+		"affects": [],
+		"pos": ["WP", "VBZ"]
+	},
+	{
+	"word": "off",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "stage",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "person",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "standing",
+		"affects": ["positive"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "alone",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "see",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "their",
+		"affects": [],
+		"pos": ["PRP$"]
+	},
+	{
+	"word": "activity",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "screen",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "they're",
+		"affects": [],
+		"pos": ["PRP", "VBP"]
+	},
+	{
+	"word": "represented",
+		"affects": ["positive"],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "they",
+		"affects": [],
+		"pos": ["PRP"]
+	},
+	{
+	"word": "look",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "ominous",
+		"affects": ["anticipation", "fear", "negative"],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "warnings",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "flashing",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "power",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "about",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "he's",
+		"affects": [],
+		"pos": ["PRP", "VBZ"]
+	},
+	{
+	"word": "taping",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "character",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "tapping",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "suddenly",
+		"affects": ["surprise"],
+		"pos": ["RB"]
+	},
+	{
+	"word": "appearing",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "might",
+		"affects": [],
+		"pos": ["MD"]
+	},
+	{
+	"word": "heard",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "happening",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "another",
+		"affects": [],
+		"pos": ["DT"]
+	},
+	{
+	"word": "fake",
+		"affects": ["negative"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "news",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "somebody",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "trying",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "fool",
+		"affects": ["disgust", "negative"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "happens",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "distracted",
+		"affects": ["anger", "negative"],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "truth",
+		"affects": ["positive", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "own",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "body",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "did",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "hear",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "too",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "crashing",
+		"affects": [],
+		"pos": ["VBG"]
+	},
+	{
+	"word": "sounds",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "cuts",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "disappears",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "sound",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "feedback",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "then",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "silence",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "actor",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "take",
+		"affects": [],
+		"pos": ["VB"]
+	},
+	{
+	"word": "headsets",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "disheveled",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "disoriented",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "tectonic",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "assurance",
+		"affects": ["positive", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "fragile",
+		"affects": ["fear", "negative", "sadness"],
+		"pos": ["IN"]
+	},
+	{
+	"word": "ground",
+		"affects": ["trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "network",
+		"affects": ["anticipation"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "won't",
+		"affects": [],
+		"pos": ["MD", "RB"]
+	},
+	{
+	"word": "reboot",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "what's",
+		"affects": [],
+		"pos": ["WP", "VBZ"]
+	},
+	{
+	"word": "comes",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "voice",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "over",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "emptiness",
+		"affects": ["sadness"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "middle",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "atom",
+		"affects": ["positive"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "destroy",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "kid",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "terrorist",
+		"affects": ["anger", "disgust", "fear", "negative", "sadness", "surprise"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "impressionability",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "matter",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "space",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "fight",
+		"affects": ["anger", "fear", "negative"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "shape",
+		"affects": ["positive"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "",
+		"affects": [],
+		"pos": []
+	},
+	{
+	"word": "solidity",
+		"affects": ["positive", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "useful",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "illusion",
+		"affects": ["negative", "surprise"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "gets",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "through",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "day",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "(gets",
+		"affects": [],
+		"pos": ["NN", "NNS"]
+	},
+	{
+	"word": "us)",
+		"affects": [],
+		"pos": ["PRP", "VBP"]
+	},
+	{
+	"word": "resists",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "deportation",
+		"affects": ["anger", "fear", "negative", "sadness"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "past",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "few",
+		"affects": [],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "mexicans",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "broke",
+		"affects": ["fear", "negative", "sadness"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "green",
+		"affects": ["joy", "positive", "trust"],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "card",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "document",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "illegal",
+		"affects": ["anger", "disgust", "fear", "negative", "sadness"],
+		"pos": ["JJ"]
+	},
+	{
+	"word": "aliens",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "usa",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "reason",
+		"affects": ["positive"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "enter",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "america",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "by",
+		"affects": [],
+		"pos": ["IN"]
+	},
+	{
+	"word": "wall",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "president",
+		"affects": ["positive", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "trump",
+		"affects": ["surprise"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "also",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "daca",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "parents",
+		"affects": [],
+		"pos": ["NNS"]
+	},
+	{
+	"word": "came",
+		"affects": [],
+		"pos": ["VBD"]
+	},
+	{
+	"word": "country",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "right",
+		"affects": [],
+		"pos": ["RB"]
+	},
+	{
+	"word": "thing",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "hope",
+		"affects": ["anticipation", "joy", "positive", "surprise", "trust"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "jesus",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "him",
+		"affects": [],
+		"pos": ["PRP"]
+	},
+	{
+	"word": "think",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "evil",
+		"affects": ["anger", "disgust", "fear", "negative", "sadness"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "shall",
+		"affects": [],
+		"pos": ["NN"]
+	},
+	{
+	"word": "hell",
+		"affects": ["anger", "disgust", "fear", "negative", "sadness"],
+		"pos": ["NN"]
+	},
+	{
+	"word": "punish",
+		"affects": ["fear", "negative"],
+		"pos": ["JJ"]
+	}
 ]

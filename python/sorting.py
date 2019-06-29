@@ -1,7 +1,7 @@
 import csv, string
 from nltk import word_tokenize, pos_tag
 
-scripts = ['script-1', 'script-2']
+scripts = ['script-1', 'script-2', 'poem-2', 'poem-3']
 words = []
 emotions = []
 punct = ".?!,\"-"
@@ -41,9 +41,11 @@ for s in scripts:
 # print words
 with open('corpus.json', 'w') as f:
 	f.write('[\n')
-    for w in words:
+
+	for w in words:
 		affects = []
 		pos = []
+
 		tokens = word_tokenize(w)
 		pos_long = pos_tag(tokens)
 
@@ -56,7 +58,6 @@ with open('corpus.json', 'w') as f:
 				# print w
 				for i in range(1, len(e)):
 					affects.append(e[i])
-					print affects
 
 		f.write('\n\t{\n\t\"word\": \"' + w + '\",\n\t\t\"affects\": ' + str(affects) + ',\n\t\t\"pos\": ' + str(pos) + '\n\t},')
 	f.write('\n]')
