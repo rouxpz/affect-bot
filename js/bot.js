@@ -1,6 +1,8 @@
 let posCats = ['nn', 'vb', 'jj', 'prp', 'rb', 'ex'];
+let affectList = ['anger', 'anticipation', 'joy', 'surprise', 'sadness', 'disgust', 'fear', 'trust']
 let groups = [[], [], [], [], [], []];
-var txt, toFill, intv;
+let sentenceGroups = [[], [], [], [], [], [], [], []];
+var txt, toFill, intv, markovFill;
 let scripts = ['script-1', 'script-2']
 
 //sentence constructions here by part of speech -- can be much more detailed!
@@ -16,8 +18,21 @@ function loadData() {
       data = JSON.parse(request.responseText);
 
       for (var i = 0; i < data.length; i++) {
-        var w = new Word(data[i].word, data[i].affects);
 
+        //***PARSING DATA FOR MARKOV CHAIN OPTION - USE corpus-s.json FOR THIS INSTEAD***
+        // var s = new Word(data[i].sentence, data[i].affects);
+        // console.log(s);
+        //
+        // for (var j = 0; j < affectList.length; j++) {
+        //   for (var k = 0; k < data[i].affects.length; k++) {
+        //     if (affectList[j] === data[i].affects[k]) {
+        //       sentenceGroups[j].push(data[i].sentence)
+        //     }
+        //   }
+        // }
+
+        // console.log(sentenceGroups);
+        var w = new Word(data[i].word, data[i].affects);
         var pos_array = data[i].pos;
         var pos_toAdd = [];
 
@@ -30,13 +45,12 @@ function loadData() {
               groups[k].push(w);
             }
           }
-
         }
       }
 
       // console.log(words.length);
       // console.log(words[0]);
-      console.log(groups);
+      // console.log(groups);
     } else {
       // We reached our target server, but it returned an error
       console.log("error");
@@ -106,6 +120,20 @@ function changeAffect() {
   }
 
   console.log(toFill);
+
+  //***MARKOV CHAIN OPTION***
+  // var affectAll;
+  // for (var i = 0; i < affectList.length; i++) {
+  //   if (affects.value === affectList[i]) {
+  //     affectAll = sentenceGroups[i].join(' ');
+  //     console.log(affectAll);
+  //   }
+  // }
+  //
+  // rm = new RiMarkov(3);
+  // rm.loadText(affectAll);
+  // markovFill = rm.generateSentence();
+
   document.getElementById("mainStatement").innerHTML = toFill;
 
 

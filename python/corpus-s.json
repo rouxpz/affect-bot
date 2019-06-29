@@ -1,0 +1,246 @@
+[
+	{
+	"sentence": "... and now we begin the second show. I'm going to invite-",
+		"affects": []
+	},
+	{
+	"sentence": "I'm inviting audience participation. So, pay attention to me because as you like things there's ways that you can engage. So, I'll let you know what that is but we're going to begin first with our ...",
+		"affects": ["anticipation", "joy", "positive", "surprise", "trust"]
+	},
+	{
+	"sentence": "I'm a veteran.",
+		"affects": ["positive", "trust"]
+	},
+	{
+	"sentence": "I'm a refugee.",
+		"affects": ["sadness"]
+	},
+	{
+	"sentence": "I'm a veteran and a refugee.",
+		"affects": ["positive", "trust", "sadness"]
+	},
+	{
+	"sentence": "I'm a veteran refugee. I always leave home every chance I get because home is not enough to satisfy everything you need. So, you go other places. And many cases I've never felt at home anywhere because I was always on the move looking for the next place to go. On the other hand, I've always been at home wherever I've been.",
+		"affects": ["positive", "trust", "negative", "sadness", "surprise"]
+	},
+	{
+	"sentence": "Details? Intellectually?",
+		"affects": []
+	},
+	{
+	"sentence": "How does that make you feel?",
+		"affects": []
+	},
+	{
+	"sentence": "Makes me feel true.",
+		"affects": ["joy", "positive", "trust"]
+	},
+	{
+	"sentence": "True.",
+		"affects": []
+	},
+	{
+	"sentence": "True. I'm always on the move.",
+		"affects": []
+	},
+	{
+	"sentence": "Does anybody like that story? Does anyone here feel like that story resonates for you?",
+		"affects": []
+	},
+	{
+	"sentence": "Yes.",
+		"affects": []
+	},
+	{
+	"sentence": "Can you join us?",
+		"affects": ["positive"]
+	},
+	{
+	"sentence": "Okay.",
+		"affects": []
+	},
+	{
+	"sentence": "Can you join us for a couple? Can you share why that resonates?",
+		"affects": ["positive", "anticipation", "joy", "trust"]
+	},
+	{
+	"sentence": "Oh, okay.",
+		"affects": []
+	},
+	{
+	"sentence": "Okay, so now, I turn this way.",
+		"affects": []
+	},
+	{
+	"sentence": "That resonates because I moved a lot when I was growing up and so I don't have one place that's really home except where I make home with people I love.",
+		"affects": ["joy", "positive"]
+	},
+	{
+	"sentence": "Thank you for sharing.",
+		"affects": []
+	},
+	{
+	"sentence": "After hurricane Katrina there was no food or water in New Orleans. Cuba offered to come and provide us with water. The US said no.",
+		"affects": ["fear", "negative", "joy", "positive", "trust"]
+	},
+	{
+	"sentence": "Does anyone like that story? Does it resonate with anting for you.",
+		"affects": []
+	},
+	{
+	"sentence": "That's horrible.",
+		"affects": ["anger", "disgust", "fear", "negative"]
+	},
+	{
+	"sentence": "Huh? Why do you... Would you share why you said that was horrible?",
+		"affects": ["anticipation", "joy", "positive", "trust", "anger", "disgust", "fear", "negative"]
+	},
+	{
+	"sentence": "Well I feel terrible that that happened to you. I feel awful, that means that you didn't have enough resources when you could've had some.",
+		"affects": ["anger", "disgust", "fear", "negative", "sadness", "joy", "positive", "trust"]
+	},
+	{
+	"sentence": "Do you want to respond to that? Can you guys move this way? Because, when you share...",
+		"affects": ["anticipation", "joy", "positive", "trust"]
+	},
+	{
+	"sentence": "One, I have to say that I was not there, that you know, people who had resources... My mother, in a fit of panic and despair, shipped me out home to New York. So at that moment, real crisis... Although, the crisis continued for months not years, links were broken.",
+		"affects": ["joy", "positive", "trust", "anticipation", "negative", "sadness", "fear", "anger", "disgust"]
+	},
+	{
+	"sentence": "Thank you. Nicole",
+		"affects": []
+	},
+	{
+	"sentence": "Everywhere I walk into, I walk in with my identity as a First Nations woman, everywhere I go that's where I identify. Yes, I've been mistaken for a Mexican or Polynesian when I've been in those places or even in southern California, I was mistaken Mexican but I went to Africa for the first time with my daughter cause she's half Indian and I got to know I wasn't indigenous, in fact I was white. To everybody there because my skin wasn't black, I was white and I actually on a drive got referred to, cause my daughter's stepmom was driving us, the police officer asked, 'oh are you taking the boss around'.",
+		"affects": ["fear", "negative", "anticipation", "joy", "positive", "trust", "sadness"]
+	},
+	{
+	"sentence": "Does anyone like that story?",
+		"affects": []
+	},
+	{
+	"sentence": "Yeah.",
+		"affects": []
+	},
+	{
+	"sentence": "Will you join us? Will you share?",
+		"affects": ["positive", "anticipation", "joy", "trust"]
+	},
+	{
+	"sentence": "That story resonates with me because I grew up... Born and grew up in the U.S., have traveled around a lot of place in the world and I'm always, never identified as an American. I'm always identified as something else. 'Where are you really from?' And, in the moments that I go back to India, I always not identified as an Indian because I carry myself in such a Western way, that I couldn't possibly be from there.",
+		"affects": []
+	},
+	{
+	"sentence": "So we are at the end to our performance-",
+		"affects": []
+	},
+	{
+	"sentence": "Yeah, so what do we do? We just... Oh, like and share?",
+		"affects": ["anticipation", "joy", "positive", "trust"]
+	},
+	{
+	"sentence": "Okay, let's go. If you liked this, please share it on your favorite social media, like Facebook.",
+		"affects": ["anticipation", "joy", "positive", "trust"]
+	},
+	{
+	"sentence": "No.",
+		"affects": []
+	},
+	{
+	"sentence": "If you didn't like it, don't share it on your",
+		"affects": ["anticipation", "joy", "positive", "trust"]
+	},
+	{
+	"sentence": "Oh who's off stage?",
+		"affects": []
+	},
+	{
+	"sentence": "Okay I'll be the off stage.",
+		"affects": []
+	},
+	{
+	"sentence": "Okay, there's one person standing alone on stage, we can see their activity on the screen, and the way that they're represented on the screen is not what they actually look like.",
+		"affects": ["positive"]
+	},
+	{
+	"sentence": "There are ominous warnings flashing on screen that the power is about to go out.",
+		"affects": ["anticipation", "fear", "negative"]
+	},
+	{
+	"sentence": "Okay-",
+		"affects": []
+	},
+	{
+	"sentence": "He's taping on the screen.",
+		"affects": []
+	},
+	{
+	"sentence": "Our character is tapping on the screen, suddenly there are ominous warnings appearing on the screen that the power might go out.",
+		"affects": ["surprise", "anticipation", "fear", "negative"]
+	},
+	{
+	"sentence": "Oh no! I heard about this happening in another place, is this real?",
+		"affects": ["positive", "trust"]
+	},
+	{
+	"sentence": "On screen.",
+		"affects": []
+	},
+	{
+	"sentence": "Oh not the on screen",
+		"affects": []
+	},
+	{
+	"sentence": "No that's not real, that's just fake news, somebody trying to fool you. That never really happens, do not be distracted from the truth of your own body.",
+		"affects": ["positive", "trust", "negative", "disgust", "anger"]
+	},
+	{
+	"sentence": "did you hear that?",
+		"affects": []
+	},
+	{
+	"sentence": "What was that? I heard something too.",
+		"affects": []
+	},
+	{
+	"sentence": "Crashing sounds, the power cuts and the screen disappears, there is the sound of feedback, then silence... the actor is alone, they take off their headsets, they are disheveled and disoriented.",
+		"affects": []
+	},
+	{
+	"sentence": "What just happened? Is this real?",
+		"affects": ["positive", "trust"]
+	},
+	{
+	"sentence": "Tectonic assurance is fragile ground.",
+		"affects": ["positive", "trust", "fear", "negative", "sadness"]
+	},
+	{
+	"sentence": "What happened to the network? They won't reboot it, what's going on?",
+		"affects": ["anticipation"]
+	},
+	{
+	"sentence": "Then you get on the stage... the person comes on stage-",
+		"affects": []
+	},
+	{
+	"sentence": "The voice over actor comes on stage.",
+		"affects": []
+	},
+	{
+	"sentence": "The truth is the emptiness in the middle of the atom.",
+		"affects": ["positive", "trust", "sadness"]
+	},
+	{
+	"sentence": "Who are you? Did you destroy my network? Are you some kid of terrorist?",
+		"affects": ["anticipation", "anger", "disgust", "fear", "negative", "sadness", "surprise"]
+	},
+	{
+	"sentence": "The truth is the impressionability of matter, of us, the truth is a space we fight to shape.",
+		"affects": ["positive", "trust", "anger", "fear", "negative"]
+	},
+	{
+	"sentence": "",
+		"affects": []
+	}
+]

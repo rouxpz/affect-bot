@@ -3,6 +3,7 @@ from nltk import word_tokenize, pos_tag
 
 scripts = ['script-1', 'script-2']
 words = []
+sentences = []
 emotions = []
 punct = ".?!,\"-"
 
@@ -22,14 +23,18 @@ with open('NRC-emotion-lexicon-wordlevel-alphabetized-v0.92.txt', 'rb') as f:
 						emotions.append([row[0], row[1]])
 
 print("Emotions loaded!")
+print(emotions)
 
 for s in scripts:
-    with open(s + ".txt", 'r') as f:
-        for line in f:
+	with open(s + '.txt', 'r') as f:
+		for line in f:
+			line = line.strip()
+			sentences.append(line)
+
             for p in punct:
                 line = line.replace(p, '')
             # line = line.translate(None, string.punctuation)
-            line = line.strip().lower()
+            line = line.lower()
             #strip out punctuation
             l = line.split(" ")
             for word in l:
@@ -38,27 +43,35 @@ for s in scripts:
                 # else:
                 #     print "Already exists!"
 
+# print(sentences)
 # print words
-with open('corpus.json', 'w') as f:
-	f.write('[\n')
-    for w in words:
-		affects = []
-		pos = []
-		tokens = word_tokenize(w)
-		pos_long = pos_tag(tokens)
 
-		for p in pos_long:
-			pos.append(p[1])
+with open('corpus-s.json', 'w') as f:
+	f.write('[\n')
+    # for w in words:
+	for s in sentences:
+		affects = []
+		# pos = []
+		# tokens = word_tokenize(w)
+		tokens = word_tokenize(s)
+
+		# pos_long = pos_tag(tokens)
+
+		# for p in pos_long:
+		# 	pos.append(p[1])
 			# print pos
 
-		for e in emotions:
-			if w == e[0]:
-				# print w
-				for i in range(1, len(e)):
-					affects.append(e[i])
-					print affects
+		for t in tokens:
+			# print(t)
+			for e in emotions:
+				if t == e[0]:
+					# print t
+					for i in range(1, len(e)):
+						if e[i] not in affects:
+							affects.append(e[i])
+							print affects
 
-		f.write('\n\t{\n\t\"word\": \"' + w + '\",\n\t\t\"affects\": ' + str(affects) + ',\n\t\t\"pos\": ' + str(pos) + '\n\t},')
+		f.write('\n\t{\n\t\"sentence\": \"' + s + '\",\n\t\t\"affects\": ' + str(affects) + '\n\t},')
 	f.write('\n]')
 
 print("All done")
