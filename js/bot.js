@@ -1,9 +1,9 @@
-let posCats = ['nn', 'vb', 'jj', 'prp', 'rb', 'ex'];
+let posCats = ['nn', 'vb', 'jj', 'prp', 'rb', 'ex', 'to', 'dt']; //add more POS here as you see fit
 let affectList = ['anger', 'anticipation', 'joy', 'surprise', 'sadness', 'disgust', 'fear', 'trust']
-let groups = [[], [], [], [], [], []];
-let sentenceGroups = [[], [], [], [], [], [], [], []];
+let groups = [[], [], [], [], [], [], [], []]; //make sure this length is the same as posCats!
+let sentenceGroups = [[], [], [], [], [], [], [], []]; //make sure this length is the same as affectList!
 var txt, toFill, intv, markovFill;
-let scripts = ['script-1', 'script-2', 'poem-2', 'poem-3']
+let scripts = ['script-1', 'script-2', 'poem-2', 'poem-3'] //update this with new text files as needed
 
 //sentence constructions here by part of speech -- can be much more detailed!
 let constructions = [['prp', 'vb', 'rb', 'jj', 'nn']];
