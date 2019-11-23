@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <head>
   <title>Affect Bot: Proof of Concept</title>
-  <script src="js/bot.js"></script>
   <script src="js/rita.min.js"></script>
+  <script type="text/javascript" src="js/dist/compendium.minimal.js"></script>
+  <script src="js/bot.js"></script>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -19,7 +20,8 @@
     <option value="disgust">disgusted</option>
   </select>
   </div>
-  <button id = "reset" onclick = "resetAffect()">RESET AFFECT</button>
+  <button class = "showOnGenerate" id = "reset" onclick = "resetAffect()">RESET AFFECT</button>
+  <button class = "showOnGenerate" id = "save" onclick = "saveSentence()">SAVE TEXT</button>
   <div class = "parent">
     <div id = "mainStatement"></div>
     <div id = "pastStatements"></div>

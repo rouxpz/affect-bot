@@ -15,7 +15,7 @@ body {
   font-size: 20pt;
 }
 
-#reset {
+.showOnGenerate {
   font-size: 20pt;
   display: none;
 }

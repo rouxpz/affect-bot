@@ -2,8 +2,9 @@ let posCats = ['nn', 'vb', 'jj', 'prp', 'rb', 'ex', 'to', 'dt']; //add more POS 
 let affectList = ['anger', 'anticipation', 'joy', 'surprise', 'sadness', 'disgust', 'fear', 'trust']
 let groups = [[], [], [], [], [], [], [], []]; //make sure this length is the same as posCats!
 let sentenceGroups = [[], [], [], [], [], [], [], []]; //make sure this length is the same as affectList!
-var txt, toFill, intv, markovFill;
-let scripts = ['script-1', 'script-2', 'poem-2', 'poem-3'] //update this with new text files as needed
+var txt = '';
+var splitText;
+var toFill, intv, markovFill;
 
 //sentence constructions here by part of speech -- can be much more detailed!
 let constructions = [['prp', 'vb', 'rb', 'jj', 'nn']];
@@ -19,19 +20,6 @@ function loadData() {
 
       for (var i = 0; i < data.length; i++) {
 
-        //***PARSING DATA FOR MARKOV CHAIN OPTION - USE corpus-s.json FOR THIS INSTEAD***
-        // var s = new Word(data[i].sentence, data[i].affects);
-        // console.log(s);
-        //
-        // for (var j = 0; j < affectList.length; j++) {
-        //   for (var k = 0; k < data[i].affects.length; k++) {
-        //     if (affectList[j] === data[i].affects[k]) {
-        //       sentenceGroups[j].push(data[i].sentence)
-        //     }
-        //   }
-        // }
-
-        // console.log(sentenceGroups);
         var w = new Word(data[i].word, data[i].affects);
         var pos_array = data[i].pos;
         var pos_toAdd = [];
@@ -47,10 +35,8 @@ function loadData() {
           }
         }
       }
-
-      // console.log(words.length);
-      // console.log(words[0]);
-      // console.log(groups);
+      console.log(groups);
+      console.log(sentenceGroups);
     } else {
       // We reached our target server, but it returned an error
       console.log("error");
@@ -59,80 +45,83 @@ function loadData() {
 
   request.send();
 
-  for (var i = 0; i < scripts.length; i++) {
-    var client = new XMLHttpRequest();
-    client.open('GET', 'python/' + scripts[i] + '.txt');
-    client.onreadystatechange = function() {
-      txt += client.responseText.trim();
-      // console.log(txt);
-    }
-    client.send();
+  // loading data for Markov chains
+  var client = new XMLHttpRequest();
+  client.open('GET', 'python/files/bot-text.txt');
+  client.onreadystatechange = function() {
+    txt += client.responseText.trim();
+    // console.log(txt);
+    splitText = txt.split('.');
+    // console.log(splitText[splitText.length-1]);
   }
+  client.send();
 }
 
 function changeAffect() {
-  document.getElementById("reset").style.display = "inline-block";
-  document.getElementById("pastStatements").innerHTML += '<br>' +  document.getElementById("mainStatement").innerHTML;
+  var b = document.getElementsByClassName("showOnGenerate");
+  // console.log(b[0]);
 
-  toFill = '';
-  var currentText = [];
-  var toAdd;
-  var cs = Math.floor(Math.random() * constructions.length);
+  for(var i = 0; i < b.length; i++) {
+    b[i].style.display = "inline-block";
+  }
+
   var affects = document.getElementById("affects");
-  var continuation = Math.floor(Math.random() * 5);
 
-  for (var i = 0; i < constructions[cs].length; i++) {
-    // for (var i = 0; i < 3; i++) {
-    if (constructions[cs][i] === 'prp') {
-      //select proper noun randomly
-      toAdd = Math.floor(Math.random() * groups[3].length);
-      currentText.push(groups[3][toAdd].text);
-      console.log("proper noun");
-    } else {
-      //match affect
-      var s = posCats.indexOf(constructions[cs][i]);
-      var tempArray = [];
-      // console.log(groups[s]);
-      for (var j = 0; j < groups[s].length; j++) {
-        if (groups[s][j].affects.indexOf(affects.value) != -1) {
-          //temporary array to select from
-          tempArray.push(groups[s][j].text);
-          // console.log(posCats[s]);
-          // console.log(groups[s][j].affects);
+  var toFill = '';
+  var toChooseFrom = [];
+
+  for (var i = 0; i < 50; i++) {
+    var selection = Math.floor(Math.random(splitText.length) * splitText.length);
+    toChooseFrom.push(splitText[selection]);
+  }
+
+  baseSentence = toChooseFrom.join(". ");
+  baseSentence = baseSentence.replace('"', '').replace('(', '').replace(')', '');
+  // console.log(baseSentence);
+  rm = new RiMarkov(3);
+  // rm.loadTokens(wordsAlone);
+  rm.loadText(baseSentence);
+  markovFill = rm.generateSentence();
+  // markovFill = "He ate the apple."
+  wordArray = RiTa.tokenize(markovFill.toLowerCase());
+  mTags = compendium.analyse(markovFill)[0].tags;
+
+  for (var i = 0; i < mTags.length-1; i++) {
+    var toSelect = [];
+    mTags[i] = mTags[i].toLowerCase();
+    if (posCats.indexOf(mTags[i]) != -1) {
+      // console.log("in list " + mTags[i]);
+      var p = posCats.indexOf(mTags[i]);
+      for (var j = 0; j < groups[p].length; j++) {
+
+        var a = affectList.indexOf(affects.value);
+        if (groups[p][j].affects.includes(affectList[a])) {
+          toSelect.push(groups[p][j].text);
         }
+
       }
-      // console.log(tempArray);
-      if (tempArray.length > 0) {
-        //randomly select word
-        toAdd = Math.floor(Math.random() * tempArray.length);
-        currentText.push(tempArray[toAdd]);
+
+      if (toSelect.length > 0) {
+        var si = Math.floor(Math.random()*toSelect.length);
+        // console.log('CHOSEN WORD: ' + toSelect[si]);
+        toFill += toSelect[si] + " ";
       } else {
-        //randomly select from full array of POS
-        toAdd = Math.floor(Math.random() * groups[3].length);
-        currentText.push(groups[s][toAdd].text);
+        var si = Math.floor(Math.random() * groups[p].length);
+        // console.log('CHOSEN TEXT: ' + groups[p][si].text);
+        toFill += groups[p][si].text + " ";
       }
+    } else {
+      // console.log("skipped");
+      toFill += wordArray[i] + " ";
     }
   }
 
-  // console.log(currentText);
-  for (var i = 0; i < currentText.length; i++) {
-    toFill += ' ' + currentText[i];
-  }
-
   console.log(toFill);
-
-  //***MARKOV CHAIN OPTION***
-  // var affectAll;
-  // for (var i = 0; i < affectList.length; i++) {
-  //   if (affects.value === affectList[i]) {
-  //     affectAll = sentenceGroups[i].join(' ');
-  //     console.log(affectAll);
-  //   }
-  // }
-  //
-  // rm = new RiMarkov(3);
-  // rm.loadText(affectAll);
-  // markovFill = rm.generateSentence();
+  toFill = toFill.replace('“', '').replace('"', '').replace('"', '').replace('”', '').replace('(', '').replace(')', '');
+  console.log(toFill);
+  // console.log(markovFill);
+  // console.log(mTags.length);
+  // console.log(wordArray.length);
 
   document.getElementById("mainStatement").innerHTML = toFill;
 
@@ -154,5 +143,16 @@ function switchAffect() {
 function resetAffect() {
   clearInterval(intv);
   document.getElementById("selection").style.display = "inline-block";
-  document.getElementById("reset").style.display = "none";
+
+  var b = document.getElementsByClassName("showOnGenerate");
+  // console.log(b[0]);
+
+  for(var i = 0; i < b.length; i++) {
+    b[i].style.display = "none";
+  }
+}
+
+function saveSentence() {
+  console.log("clicked");
+  document.getElementById("pastStatements").innerHTML += '<br>' +  document.getElementById("mainStatement").innerHTML;
 }
